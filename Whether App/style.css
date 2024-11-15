@@ -1,0 +1,37 @@
+.weather-app {
+    height: 500px;
+    width: 500px;
+    box-shadow: 4px 4px 4px 4px gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#city-input {
+    margin: none;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#search-btn:hover{
+    background-color: #11dd18;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
